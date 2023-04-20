@@ -1,6 +1,6 @@
 //create a vpc
 resource "google_compute_network" "vpc_network" {
-  project                 = "river-module-379406"
+  project                 = "es-devops-sb"
   name                    = var.project-name
   auto_create_subnetworks = false
   mtu                     = 1460
